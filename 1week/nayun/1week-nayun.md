@@ -29,8 +29,51 @@ TypeScript는 JavaScript를 기반으로 하는 강타입 프로그래밍 언어
 - 타입스크립트의 보호 장치는 타입스크립트 코드를 컴파일한 후 (자바스크립트로 변환하기 전에) 발생한다.
 - 타입스크립트 코드에 에러가 있으면 해당 코드는 자바스크립트로 컴파일되지 않는다.
 ### TypeScript의 타입들
-- string
-- number
-- boolean
-- array
-- object
+**string**
+<pre>
+<code>
+   let b : string = "banana";
+</code>
+</pre>
+
+**number**
+<pre>
+<code>
+   let n : number = 6;
+</code>
+</pre>
+
+**boolean**
+<pre>
+<code>
+   let t : boolean = false;
+</code>
+</pre>
+
+**array**
+<pre>
+<code>
+   let a : number[] = [1, 2, 3];
+   let b : string[] = ["x", "y", "z"];
+   let c : boolean[] = [true]
+</code>
+</pre>
+
+**object**
+<pre>
+<code>
+   type Player = {
+      name : string,
+      age? : number
+   }
+
+   const playerNico : Player = {
+      name: "nico"
+   }
+
+   const playerLynn : Player = {
+      name: "lynn",
+      age: 32
+   }
+</code>
+</pre>
