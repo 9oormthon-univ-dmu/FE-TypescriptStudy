@@ -13,7 +13,7 @@ TypeScript는 기본적으로 Type을 먼저 명시해준다는 점에서 특수
 📌 Type 시스템은 두가지 경우로 나뉘는데 :<br>
 └ 변수 선언 시 타입을 정의하는 명시적 정의(Explicit Types)<br>
 └ 변수만 생성하고 타입을 TypeScript가 추론하는 내포적 정의 (Implicit Types) 로 나뉜다.<br>
-
+<br>
 📌 Types of TS(기본)<br>
 ✅ 배열: array[]<br>
 ✅ 숫자: number<br>
