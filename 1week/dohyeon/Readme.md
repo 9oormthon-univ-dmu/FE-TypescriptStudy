@@ -30,3 +30,4 @@ null: 선언O 할당X<br>
 unknown: 변수의 타입을 미리 알지 못 할 때 사용<br>
 void: 아무것도 return하지 않는 함수를 대상으로 사용<br>
 never: 함수가 절대 return하지 않는 경우에 사용<br>
+***
