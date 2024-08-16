@@ -1,6 +1,6 @@
 ## 1주차 - #1 Introduction & #2 Overview Of Typescript
 <hr>
-### #1 Introduction - Why not JavaScript
+### #1 Introduction - Why not JavaScript<br>
 ✅ TypeScript의 타입 안정성: Typescript의 타입 안정성은 개발자 경험을 향상시키고, 버그를 줄이며, 런타임 오류를 최소화하고 생산성을 높인다. <br>
 ✅ JavaScript의 유연성: 개발자가 잘못된 코드를 작성하더라도 오류를 발생시키지 않고 컴파일 하기 때문에 추후에 예상하지 못한 오류를 발견 할 수 있다. <br>
 ✅ JavaScript의 오류 방지 부족: JavaScript에선 잘못된 타입을 제대로 처리하지 않고 컴파일을 진행하기 때문에 오류를 빠르게 발견하기 어려운 반면에 TypeScript는 이를 방지한다. <br>
