@@ -75,5 +75,97 @@ TypeScript는 JavaScript를 기반으로 하는 강타입 프로그래밍 언어
       name: "lynn",
       age: 32
    }
+
+   
+   **객체를 return하는 함수 만들기**
+   
+   function playerMaker(name: string) : Player {
+      return {
+         name
+      }
+   }
+
+   const nico = playerMaker("nico")
+   nico.age = 12
+</code>
+</pre>
+
+**tuple**   
+배열의 서브 타입, 크기와 타입이 고정된 배열
+<pre>
+<code>
+   const player: [string, number, boolean] = ["nico", 1, true]
+</code>
+</pre>
+
+**undefined, null**   
+<pre>
+<code>
+   let a : undefined = undefined
+   let b : null = null
+</code>
+</pre>
+
+**any**   
+비어있는 값들은 기본적으로 any 타입을 가진다, TypeScript의 보호장치를 벗어나기 위한 타입
+<pre>
+<code>
+   const a : any[] = [1, 2, 3, 4]
+   const b : any[] = true
+   a + b (에러 발생 X)
+</code>
+</pre>
+
+**unknown**   
+<pre>
+<code>
+   let a : unknown
+   
+   if(typeof a === "number"){
+      let b = a + 1
+   }
+
+   if(typeof a === "string"){
+      let b = a.toUpperCase()
+   }
+</code>
+</pre>
+
+**void** 
+return값이 없는 함수의 타입, 따로 지정할 필요는 없다
+<pre>
+<code>
+   function hello(){
+      console.log("X")
+   }
+</code>
+</pre>
+
+**never**
+return하지 않고 오류를 발생시키는 함수의 타입
+<pre>
+<code>
+   function hello() : never{
+      throw new Error("xxx")
+   }
+
+   function hello(name : string | number) {
+      if(typeof name === "string"){
+         name (-> string)
+      } else if(typeof name === "number){
+         name (-> number)
+      } else{
+         name (-> never)
+      }
+   }
+</code>
+</pre>
+
+### 타입에 속성 추가하기
+
+**readonly**
+<pre>
+<code>
+   const numbers : readonly number[] = [] 
 </code>
 </pre>
