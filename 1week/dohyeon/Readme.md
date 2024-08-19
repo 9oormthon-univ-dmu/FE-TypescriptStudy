@@ -22,9 +22,9 @@ TypeScript는 기본적으로 Type을 먼저 명시해준다는 점에서 특수
 ✅ 튜플: Tuple<br>
 
 ✅ undefined, null, any:<br>
-any: 아무 타입<br>
 undefined: 선언X 할당X<br>
 null: 선언O 할당X<br>
+any: 아무 타입<br>
 
 ✅ unknown, void, never:<br>
 unknown: 변수의 타입을 미리 알지 못 할 때 사용<br>
