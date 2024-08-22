@@ -1,6 +1,7 @@
 ## 2주차 - #3 Functions
 
 ### #3 Functions - Call Signatures, Overloading, Polymorphism and Generics <br>
+***
 📌 Call Signatures <br>
 ✅ 함수 이름 위에 커서를 올렸을 때 나오는 파라미터, 리턴 타입의 정보를 말한다. <br>
 ✅ 프로그램을 디자인하면서 타입을 먼저 생각하고 구현하는게 포인트이다. <br><br>
