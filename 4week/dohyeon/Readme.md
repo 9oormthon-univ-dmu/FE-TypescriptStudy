@@ -54,6 +54,7 @@ declare module "myPackage" {
 📌 JSDoc <br>
 ✅ JSDoc은 comment, 즉 주석으로 이루어진 문법이다. 입력값, 타입등 많은걸 지정해줄 수 있음. <br>
 ✅ 타입스크립트의 코드작성 없이 주석만 작성하여 자바스크립트 코드가 타입스크립트의 보호를 받을 수 있음. <br>
+
 ```
  eg: tsconfig.json > ...
 "compilerOptions": {
