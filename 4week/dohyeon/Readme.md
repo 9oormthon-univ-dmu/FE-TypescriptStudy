@@ -78,4 +78,5 @@ export function init(config) {
 <br>
 📌 DefinitelyTyped  <br>
 ✅ DefinitelyTyped는 여러 개발자들이 참여한 레포인데, 소스코드 분석을 통해 어떤 코드가 어떤식으로 동작하는지를 확인하고 타입스크립트에게 그 패키지가 어떤 역할을 하는지 설명하는 것. (.d.ts 파일을 생성함) <br>
+
 *** 
