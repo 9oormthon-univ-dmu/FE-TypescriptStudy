@@ -39,6 +39,7 @@
 
 import {init} from "myPackage";
 ```
+
 ```
  eg: myPacakge.d.ts > {} "myPackage"
 interface Config {
@@ -59,6 +60,7 @@ declare module "myPackage" {
         "allowJs": true
     }
 ```
+
 ```
 //@ts-check
 /**
