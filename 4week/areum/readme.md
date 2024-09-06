@@ -24,14 +24,12 @@
             ```json
             "complierOptions": {
             	"lib" : ["ES6", "DOM"]
-            	// ES6를 지원하는 서버와 브라우저 환경에서 실행
             }
             ```
         - strict : 엄격한 타입 검사 옵션 활성화
             ```json
             "complierOptions": {
             	"strict": true
-            	// TS가 엄격하게 타입을 체크할 수 있도록 함
             }
             ```
         - allowJS : 타입스크립트에서 JS 파일을 사용할 수 있도록 허용
