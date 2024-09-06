@@ -2,13 +2,20 @@
     "name": "areum",
     "version": "1.0.0",
     "scripts": {
-        "build": "tsc"
+        "build": "tsc",
+        "dev": "nodemon --exec -node src/index.ts",
+        "start": "node build/index.js"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "description": "",
     "devDependencies": {
+        "@types/node": "^22.5.4",
+        "ts-node": "^10.9.2",
         "typescript": "^5.5.4"
+    },
+    "dependencies": {
+        "nodemon": "^3.1.4"
     }
 }
