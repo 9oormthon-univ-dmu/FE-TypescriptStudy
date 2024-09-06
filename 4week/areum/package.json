@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "scripts": {
         "build": "tsc",
-        "dev": "nodemon --exec -node src/index.ts",
+        "dev": "nodemon --exec ts-node src/index.ts",
         "start": "node build/index.js"
     },
     "keywords": [],
