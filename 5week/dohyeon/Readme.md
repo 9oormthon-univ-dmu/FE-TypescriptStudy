@@ -16,3 +16,4 @@ api 폴더 : 서버기능 만드는 곳 <br>
 next.config.js : nextjs 설정 파일 <br>
 node_modules 폴더 : 설치한 라이브러리 보관용 폴더 <br>
 package.json : 설치한 라이브러리 버전 기록용 파일<br>
+client/server component, import 문법
