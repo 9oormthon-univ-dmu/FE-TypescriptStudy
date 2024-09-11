@@ -1,8 +1,9 @@
-
 Next.js 기본 구성 (TS 사용x) <br>
+
 page.js : 메인페이지 <br>
 layout.js : 메인페이지 감싸는 용도의 페이지 <br>
-public 폴더 : 이미지나 static 파일 보관용 <br>
+![image](https://github.com/user-attachments/assets/567bc9ee-54a0-4fc1-a882-8127e17417b9)
+<br> public 폴더 : 이미지나 static 파일 보관용 <br>
 api 폴더 : 서버기능 만드는 곳 <br>
 <br>
  <br>
