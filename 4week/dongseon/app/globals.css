@@ -1,0 +1,45 @@
+body {
+  background: rgb(58, 58, 58);
+  margin: 0;
+}
+
+.navbar {
+  padding: 20px;
+  background: white;
+}
+.navbar a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.home {
+  color: white;
+}
+
+.productList {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.product {
+  padding: 2em;
+  margin: 1em;
+  font-weight: bold;
+  background: white;
+  color: black;
+}
+
+.productImage {
+  width: 10%;
+  height: auto;
+}
+
+.productAmount {
+  display: flex;
+  gap: 1em;
+  padding: 10px;
+}
+.productAmount > button {
+  background-color: white;
+}
