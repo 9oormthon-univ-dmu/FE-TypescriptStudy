@@ -1,0 +1,60 @@
+body {
+  margin : 0;
+  background-color: #707070;
+  color : white;
+}
+ 
+.title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.title-sub {
+  text-align: center;
+}
+
+.navbar {
+  background: white;
+  padding: 20px;
+}
+.navbar a {
+  margin-right: 10px;
+  text-decoration: none;
+} 
+
+.food {
+  margin: 20px auto;
+  width: 200px;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: block;
+  align-items: center;
+} 
+
+.food div {
+  display: flex;
+}
+
+.food div div{
+  align-items: center;
+}
+
+.food-img {
+  width: 50%;
+  height: auto;
+}
+
+.add-food {
+  justify-content: center;
+}
+
+.cart-item {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid grey;
+  line-height: 0px;
+} 
