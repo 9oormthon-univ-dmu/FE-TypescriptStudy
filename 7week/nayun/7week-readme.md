@@ -55,7 +55,7 @@ export default async function handler(request, response) {
 
 ## 게시물 삭제
 
-**use client**
+**use client**   
 client component(ListItem)를 만들어 글목록 UI 옮기기
 
 ```javascript
@@ -110,21 +110,21 @@ export default async function handler(request, response) {
     🗑️
   </span>
 ```
-**query string**
-/url?a=1&b=2&c=3 
+**query string**   
+/url?a=1&b=2&c=3    
 -> {a:1, b:2, c:2} 데이터 전송
 
-**URL parameter**
-pages/api/abc/[id].js
+**URL parameter**  
+pages/api/abc/[id].js  
 -> url parameter 자리에 집어넣은 문자 출력 가능
 
 ### 배포
 
-**build**
+**build**  
 npm run build
 -> 코드를 html, js, css 파일로 변환
 
-npm run start
+npm run start  
 -> 서버 실행
 
 **Dynamic/Static rendering**
