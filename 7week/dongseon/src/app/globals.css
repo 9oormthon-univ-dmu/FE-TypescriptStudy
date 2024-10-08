@@ -1,0 +1,88 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  background: white;
+  padding: 20px;
+}
+.navbar a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  font-weight: bold;
+}
+
+.home > * {
+  display: block;
+}
+.home > a {
+  margin: 10px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgb(224, 224, 224) 0px 2px 4px 0px;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.list-bg {
+  background: rgb(249, 250, 255);
+  padding: 10px;
+}
+.list-item {
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 5px;
+  box-shadow: rgb(224, 224, 224) 0px 2px 4px 0px;
+}
+.list-item h4 {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0;
+}
+.list-item p {
+  color: grey;
+  margin: 5px 0px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+input {
+  box-sizing: border-box;
+  padding: 10px;
+  display: block;
+  margin-bottom: 10px;
+}
+button {
+  padding: 10px 15px;
+  box-shadow: 0 0 10px lightgray;
+  background: white;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background: lightgray;
+}
+span {
+  display: flex;
+  gap: 10px;
+}
+
+.deleted-content {
+  transition: all 1s;
+  overflow: hidden;
+  height: 0;
+  min-height: 0;
+  opacity: 0;
+  padding: 0 20px;
+  visibility: hidden;
+}
