@@ -48,3 +48,20 @@ NextJS에는 NextAuth.js 라이브러리를 사용해 쉽게 구현 가능하다
 1. github 로그인
 2. Settings - Developer Settings - OAuth Apps 로 들어가 App을 추가한다.
 3. url은 nextjs에서 사용하는 url을 작성한다 (개발중인 url은 localhost:3000)
+[...nextauth].js 파일 설정
+```
+import NextAuth from "next-auth";
+import GithubProvider from "next-auth/providers/github";
+
+export const authOptions = {
+  providers: [
+    GithubProvider({
+      clientId: "Github에서 발급받은ID",
+      clientSecret: "Github에서 발급받은Secret",
+    }),
+  ],
+  secret: "jwt생성시쓰는암호",
+};
+export default NextAuth(authOptions);
+```
++ 민감한 정보는 .env 환경변수를 이용해 숨김 처리한다.
