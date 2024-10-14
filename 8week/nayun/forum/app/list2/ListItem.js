@@ -15,7 +15,7 @@ export default function ListItem({ result }) {
             onClick={(e) =>
               fetch("/api/post/delete", {
                 method: "DELETE",
-                body: JSON.stringify({_id: item._id}),
+                body: item._id,
               })
                 .then((r) => {
                   return r.json;
@@ -23,7 +23,7 @@ export default function ListItem({ result }) {
                 .then(() => {
                   e.target.parentElement.style.opacity = 0;
                   setTimeout(() => {
-                    e.target.parentElement.style.display = "none";
+                    e.target.parentElement.style.disply = "none";
                   }, 1000);
                 })
             }
